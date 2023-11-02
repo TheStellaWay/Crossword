@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111000111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x42A2CE">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x42A2CE">
   <layouts>
-    <layout name="npnxnanbsnfns10111000111" font="Roboto Light" controllayout="npnxnanbsnfns10111000111" colorscheme="npnxnanbnsnfns10111000111" string_table="npnxnanbnsnfns10111000111" />
-    <layout name="pxabnsnfns10111000111" font="Roboto Light" controllayout="pxabnsnfns10111000111" colorscheme="npnxnanbnsnfns10111000111" string_table="npnxnanbnsnfns10111000111" />
-    <layout name="npxnabnsnfns10111000111" font="Roboto Light" controllayout="npxnabnsnfns10111000111" colorscheme="npnxnanbnsnfns10111000111" string_table="npnxnanbnsnfns10111000111" />
-    <layout name="npnxnanbnsnfns10111000111" font="Roboto Light" controllayout="npnxnanbnsnfns10111000111" colorscheme="npnxnanbnsnfns10111000111" string_table="npnxnanbnsnfns10111000111" />
-    <layout name="pxabnsnfns10111000110" font="Roboto Light" controllayout="pxabnsnfns10111000110" colorscheme="npnxnanbnsnfns10111000111" string_table="npnxnanbnsnfns10111000111" />
-    <layout name="pnxanbnsnfns10111000111" font="Roboto Light" controllayout="pnxanbnsnfns10111000111" colorscheme="npnxnanbnsnfns10111000111" string_table="npnxnanbnsnfns10111000111" />
+    <layout name="npnxnanbsnfns00001000001" font="Roboto Light" controllayout="npnxnanbsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="pxabnsnfns00001000001" font="Roboto Light" controllayout="pxabnsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="npxnabnsnfns00001000001" font="Roboto Light" controllayout="npxnabnsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="npnxnanbnsnfns00001000001" font="Roboto Light" controllayout="npnxnanbnsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="pxabnsnfns00001000000" font="Roboto Light" controllayout="pxabnsnfns00001000000" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="pnxanbnsnfns00001000001" font="Roboto Light" controllayout="pnxanbnsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -59,22 +59,22 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="true" />
-          <option name="seekbar" value="true">
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="true" />
-          <option name="replay" value="true" />
-          <option name="search" value="true" />
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Roboto Light" />
             </options>
           </option>
-          <option name="settings" value="true" />
+          <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
           <option name="playbackSpeedControl" value="false" />
         </options>
@@ -101,11 +101,11 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10111000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="npnxnanbsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -120,16 +120,16 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="pxabnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -144,16 +144,16 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10111000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="npxnabnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -168,16 +168,16 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10111000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="npnxnanbnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -192,16 +192,16 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000110">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="pxabnsnfns00001000000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -216,16 +216,16 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns10111000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="pnxanbnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="false" />
@@ -240,14 +240,14 @@
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="true" />
+          <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns10111000111">
+    <colorscheme name="npnxnanbnsnfns00001000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1425,7 +1425,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns10111000111">
+    <string_table name="npnxnanbnsnfns00001000001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1596,10 +1596,6 @@
         </slidelink>
       </links>
     </outline>
-    <search>
-      <slidetext slideid="5VXUf7D0cr4.6fH2V39tUEE" slidebank="false" type="slide"> ready to test your course creation knowledge? solve the following crossword puzzle by clicking on the clues and typing in your answers. ready? click start below. start start start start start</slidetext>
-      <slidetext slideid="5VXUf7D0cr4.5sDt4pQLOeV" slidebank="false" type="slide">assessment   type your answer here                feedback   type your answer here                engagement   type your answer here                interaction   type your answer here                goal   type your answer here                navigation   type your answer here                content   type your answer here                learning   type your answer here                click on the hint to type your answer. think again about  your response.  that’s correct  type your text here         type your text here type your text here      across 7. information provided to learners to help them improve (8) 7. information provided to learners to help them improve (8) 7. information provided to learners to help them improve (8) 7. information provided to learners to help them improve (8) 4. a specific objective or target to achieve (4) 4. a specific objective or target to achieve (4) 4. a specific objective or target to achieve (4) 4. a specific objective or target to achieve (4) 5. communication and engagement between learners and the course (11) 5. communication and engagement between learners and the course (11) 5. communication and engagement between learners and the course (11) 5. communication and engagement between learners and the course (11) down 2. the educational material presented in a course (7) 2. the educational material presented in a course (7) 2. the educational material presented in a course (7) 2. the educational material presented in a course (7) 1. the process of acquiring knowledge and skills (8) 1. the process of acquiring knowledge and skills (8) 1. the process of acquiring knowledge and skills (8) 1. the process of acquiring knowledge and skills (8) 3. moving through a course or program with ease (10) 3. moving through a course or program with ease (10) 3. moving through a course or program with ease (10) 3. moving through a course or program with ease (10) 6. the level of involvement and interest in the learning process(10) 6. the level of involvement and interest in the learning process(10) 6. the level of involvement and interest in the learning process(10) 6. the level of involvement and interest in the learning process(10) 8. the evaluation of a learner's performance and understanding (10) 8. the evaluation of a learner's performance and understanding (10) 8. the evaluation of a learner's performance and understanding (10) 8. the evaluation of a learner's performance and understanding (10)   1 2 3 5 6 7 7 7 8 finish finish finish finish finish finish print print print print print print                            4                 </slidetext>
-    </search>
   </nav_data>
   <resource_data description="" />
   <transcript_data />
